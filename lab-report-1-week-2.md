@@ -3,7 +3,7 @@
 Go to your OS’s start menu, type VSCode in the search bar and open VSCode. 
 
 
-If you do not have VScode installed, click here to get the latest installation version for your OS. 
+If you do not have VScode installed, click [here](https://code.visualstudio.com/download) to get the latest installation version for your OS. 
 
 ![Image](https://i.imgur.com/zkb6Cly.png)
 
