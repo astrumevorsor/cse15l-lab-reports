@@ -21,7 +21,7 @@ This is how it looks.
 
 ![Image](https://i.imgur.com/7YpeEM6.png)
 
-Part 2– Remotely Connecting
+## Part 2– Remotely Connecting
 
 CSE15L uses course specific accounts, with their own passwords and usernames. 
 
@@ -57,6 +57,7 @@ Change terminal from powershell to gitbash
 
 
 Login with your credentials that you set up after changing your password. 
+```$ssh cse cs15lxxabc@ieng6.ucsd.edu```
 
 ![Image](https://i.imgur.com/N9MtUb1.png)
 
@@ -71,17 +72,17 @@ This remote connects you to the linux ieng ucsd servers.
 Beware about the password, as it delayed me many times and it was very frustrating to re enter it. Moreover, the format of mail is cs15l not cse15l.
 
 
-Part 3 – Run Some Commands
+## Part 3 – Run Some Commands
 
 Here are some specific useful commands to try:
 
-- cd ~ : changes directory to the home directory
-- cd: changes to the current directory
-- pwd: gives the absolute path of the current directory 
-- ls - lists all the files in the current directory 
-- ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username- where you will try to access the other students directory.
-- cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-- cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+- ```cd ~``` : changes directory to the home directory
+- ```cd```: changes to the current directory
+- ```pwd```: gives the absolute path of the current directory 
+- ```ls``` - lists all the files in the current directory 
+- ```ls <directory>``` where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username- where you will try to access the other students directory.
+- ```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```
+- ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 
 ![Image](https://i.imgur.com/BFy3gHw.png)
 
