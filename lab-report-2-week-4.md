@@ -1,8 +1,8 @@
 # Part 1- Setting up the StringServer
 
-![Code](https://imgur.com/a/bb49QZX)
+![Image](https://imgur.com/a/bb49QZX)
 
-![Execution](https://imgur.com/a/umnyhuR)
+![Image](https://imgur.com/a/umnyhuR)
 
 For each of the two screenshots, describe:
 
