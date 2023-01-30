@@ -3,7 +3,9 @@ I have used chatGPT to generate the StringServer code using the NumberServer and
 
 These are the prompts I used. 
 
-```Let us suppose I have 2 files with the following code: 
+```
+
+Let us suppose I have 2 files with the following code: 
 
 NumberServer.java 
 
