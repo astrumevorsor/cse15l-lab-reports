@@ -72,10 +72,12 @@ Corrected code
 
 ![Image](https://i.imgur.com/AqFAioN.png)
 
-
-
 ## Part 3- Learning Outcomes
 
-Through the lab, I learnt how to script my own webserver and the procedures behind requesting and sending data, I used to think everything is complicated but it turns out the web is a file system which can be broken into simpler parts and we can create our own webpages. This is very useful if I wish to create a website of my own or host a domain in the future. 
+Through the lab, I learnt how to script my own webserver and the procedures behind requesting and sending data.
+I used to think everything is complicated but it turns out the web is a file system which can be broken into simpler parts and we can create our own webpages. 
+This is very useful if I wish to create a website of my own or host a domain in the future.
+
+
 
 
