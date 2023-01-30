@@ -48,13 +48,18 @@ It is observed that the first element of the array in the actual output does not
 
 ```@Test 
     public void testReversed() {
-      int[] input1 = {1,2,2,1};
-      assertArrayEquals(new int[]{1,2,2,1}, ArrayExamples.reversed(input1));
+      int[] input1 = {0,0};
+      assertArrayEquals(new int[]{0,0}, ArrayExamples.reversed(input1));
     }
  ```
-This is a pallindromic input which gives an accurately OK test.
+This is a pallindromic zero input which gives an accurately OK test.
 
 Symptom ![Image](https://i.imgur.com/6VqoC4Q.png)
+
+
+Correct test: 
+
+![Image](https://i.imgur.com/JcUEeyz.png)
 
 
 
@@ -69,6 +74,8 @@ Corrected code
 
 
 
+## Part 3- Learning Outcomes
 
+Through the lab, I learnt how to script my own webserver and the procedures behind requesting and sending data, I used to think everything is complicated but it turns out the web is a file system which can be broken into simpler parts and we can create our own webpages. This is very useful if I wish to create a website of my own or host a domain in the future. 
 
 
