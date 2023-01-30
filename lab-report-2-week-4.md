@@ -153,11 +153,15 @@ The handle() method is overridden to form the response body by calling the handl
 Finally, the Server class has the start() method that starts the server by creating an instance of HttpServer. It creates a context for the "/" endpoint and passes the ServerHttpHandler object to it. The server is then started and a message is printed to the console indicating that the server has started.
 I hope this helps! Let me know if you have any other questions.
 ```
+
+
 I understood the methods and decided to copy the code from Server.java without any modifications as it's job was to set up the Server and serve as an interface for StringServer.java, as it did not have a main method.
 
 StringServer would need a main to run the code and I'd have to change int to string, the function handleRequest would have to be modified to accomodate and display the string messages from the prompt. 
 
 So, what I did to the code was, simply changed it to, 
+
+
 ```
 import java.io.IOException;
 import java.net.URI;
