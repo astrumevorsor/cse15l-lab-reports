@@ -110,7 +110,8 @@ Can you give me a line by line explanation of the code
 
 ChatGPT gave a response
 
-```Sure! Here's a line by line explanation of the code:
+```
+Sure! Here's a line by line explanation of the code:
 
 NumberServer.java
 
@@ -157,7 +158,8 @@ I understood the methods and decided to copy the code from Server.java without a
 StringServer would need a main to run the code and I'd have to change int to string, the function handleRequest would have to be modified to accomodate and display the string messages from the prompt. 
 
 So, what I did to the code was, simply changed it to, 
-```import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 
 //Declare class stringserver and use the String type object as we learnt in CSE 11.
@@ -241,17 +243,23 @@ class StringServer {
 ```
 I took the middle part and asked chat gpt to explain this section of code.
 
-My response: explain ```  if (url.getPath().contains("/add-message")) {
+My response: explain 
+```  
+if (url.getPath().contains("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 str += "\n" + parameters[1];
                 return str;
             }
         }
-        ```
-ChatGPT: ```This code implements the StringServer class which is a simple web server that allows incoming requests to modify a single string by concatenating a new line (\n) and the string after the equal sign (=) in the query parameter s. The web server listens on a specified port, which should be passed as the first argument when starting the server.
+```
+ChatGPT: 
 
-The StringHandler class implements the URLHandler interface and defines the behavior for handling incoming requests. It has a single instance variable str which is initially an empty string. The handleRequest method is called by the ServerHttpHandler to handle incoming requests and returns the current string after modifying it.```
+```
+This code implements the StringServer class which is a simple web server that allows incoming requests to modify a single string by concatenating a new line (\n) and the string after the equal sign (=) in the query parameter s. The web server listens on a specified port, which should be passed as the first argument when starting the server.
+
+The StringHandler class implements the URLHandler interface and defines the behavior for handling incoming requests. It has a single instance variable str which is initially an empty string. The handleRequest method is called by the ServerHttpHandler to handle incoming requests and returns the current string after modifying it.
+```
 
 So, I followed this method and added this to the code. 
 
@@ -283,14 +291,16 @@ No fields change as no updating to the instance variables. The value of string m
 ## Choose one of the bugs from lab 3
 I will refer to the ```reversed() ``` method. 
 
-```@Test 
+```
+@Test 
 public void testReversed(){
  int [] input= {1, 2, 3, 4, 5};
  assertArrayEquals(new int[] {5, 4, 3, 2, 1}, ArrayExamples.reversed(input));
 ```
 It is observed that the first element of the array in the actual output does not match the expected output. It should have been 5, but is 0.
 
-```@Test 
+```
+@Test 
     public void testReversed() {
       int[] input1 = {0,0};
       assertArrayEquals(new int[]{0,0}, ArrayExamples.reversed(input1));
