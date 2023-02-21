@@ -1,5 +1,7 @@
 # Using the grep command in different ways 
 
+Changed post feedback
+
 For lab report 3, I shall be using the grep command. 
 
 To start, use ```grep man``` on the bash shell and see any commands of interest.
