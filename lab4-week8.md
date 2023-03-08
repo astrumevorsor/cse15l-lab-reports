@@ -20,7 +20,7 @@ Moreover, use ```ls``` and ```rm -rf lab7``` in your terminal to delete your rep
 
 ## Step 2: Setup: Fork the repository
 
-Go to search and jump to the respository https://github.com/ucsd-cse15l-w23/lab7. 
+Go to search and jump to the respository [Link](https://github.com/ucsd-cse15l-w23/lab7) 
 
 ![img](https://i.imgur.com/LmYwvg4.png)
 
@@ -31,10 +31,10 @@ Fork this repo.
 
 ## Step 3: Log into ieng6
 
-The CLDQ way of doing this is just using the up arrow, Or CTRL+R on windows. 
+The CLDQ way of doing this is just using the up arrow, Or ```ctrl+r``` on windows. 
 Usually, from previous logins you have a history. 
 
-On my mac, I usually go with up key, but during skill demos, no point checking CTRL+R, as tutors would usually erase the history.
+On my mac, I usually go with up key, but during skill demos, no point checking ```ctrl+r```, as tutors would usually erase the history.
 
 ![img](https://i.imgur.com/NWiPkSv.png)
 
@@ -42,8 +42,8 @@ Use your password from your clipboard. In the demo there is no password, so agai
 
 ## Step 4: Clone your fork of the repository from your Github account
 
-The moment you login, use CTRL+R, even on mac. Search git and then you'll find the most recently run command, for me this 
-was ```git clone https://github.com/astrumevorsor/lab7```. Easy. Now, run the command pressing the return key. 
+The moment you login, use ```ctrl+r```, even on mac. Search git and then you'll find the most recently run command, for me this 
+was ```git clone https://github.com/ucsd-cse15l-w23/lab7```. Easy. Now, run the command pressing the return key. 
 
 Keys pressed: ```<ctrl + r> <g> <i> <t> <return>```
 
@@ -52,11 +52,11 @@ Keys pressed: ```<ctrl + r> <g> <i> <t> <return>```
 
 ## Step 5: Run the tests, demonstrating that they fail
 
-Change directory to lab7, just search cd, my most recent one was lab7, so it was convenient to use ctrl+r
-Now use ctrl+r and check the junit tests. The first result on me typing j was javac... and I pressed return. Saved a lot
+Change directory to lab7, just search ```cd```, my most recent one was lab7, so it was convenient to use ```ctrl+r```
+Now use ```ctrl+r``` and check the junit tests. The first result on me typing j was ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and I pressed return. Saved a lot
 of time. 
 
-Then, I also pressed ctrl+r and used java space, which led me to the runtime of the junit class. 
+Then, I also pressed ```ctrl+r``` and used java space, which led me to the runtime of the junit class. 
 
 There was one failure in total.
 
@@ -67,7 +67,7 @@ Keys pressed: ```<ctrl + r> <c> <d> <return> <ctrl +r> <j> <return> <ctrl+r> <j>
 
 ## Step 6: Edit the code file to fix the failing test
 
-Open your ssh ieng6 from VsCode after opening the remote extensions from the command palette. This is F1 on windows 
+Open your ssh ieng6 from VsCode after opening the remote extensions from the command palette. This is ```F1``` on windows 
 or ```shift + cmd + p ``` on mac. Connect to ieng6. Now, edit the code. Save using ```ctrl+s ```
 
 ![img](https://i.imgur.com/kpRBn9l.png)
@@ -88,8 +88,8 @@ Keys pressed: ```<up> <up> <return> <up> <up> <return>```
 
 ## Step 8: Commit and push the resulting change to your Github account
 
-Again, search for git add. It is surely there in your command history. <ctrl + r> then search git a, should display git add.
-Same way search git c. Commit the changes to your repo. We're done. 
+Again, search for ```git add```. It is surely there in your command history. ```ctrl + r``` then search ```git a```, should display ```git add```.
+Same way search ```git c```. Commit the changes to your repo. We're done. 
 
 Keys pressed: ``` <ctrl+r> <g><i><t> <space> <a> <return> <ctrl+r> <g> <i> <t> <space> <c> <return> ```
 
