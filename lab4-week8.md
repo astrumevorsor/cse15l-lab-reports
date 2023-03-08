@@ -53,10 +53,10 @@ Keys pressed: ```<ctrl + r> <g> <i> <t> <return>```
 ## Step 5: Run the tests, demonstrating that they fail
 
 Change directory to lab7, just search ```cd```, my most recent one was lab7, so it was convenient to use ```ctrl+r```
-Now use ```ctrl+r``` and check the junit tests. The first result on me typing j was ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and I pressed return. Saved a lot
+Now use ```ctrl+r``` and check the junit tests. The first result on me typing j was ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and I pressed ```return```. Saved a lot
 of time. 
 
-Then, I also pressed ```ctrl+r``` and used java space, which led me to the runtime of the junit class. 
+Then, I also pressed ```ctrl+r``` and used ```java space```, which led me to the runtime of the junit class, that is ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore```. 
 
 There was one failure in total.
 
@@ -78,7 +78,7 @@ Keys pressed:
 
 ## Step 7: Run the tests, demonstrating that they now succeed
 
-Run the junit tests again. javac should be 2 arrows up and the run tester should be 2 arrows up. Run these tests. 
+Run the junit tests again. ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```  should be 2 arrows up and the  ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore``` command should be 2 arrows up. Run these tests. 
 
 Should be okay now. 
 
