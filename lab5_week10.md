@@ -109,7 +109,7 @@ To check if a certain file type exists in the directory, we use this command.
 
 ```find <directory path/keyword> -type <format>```
 
-```tyoe``` is the filter criteria.
+```type``` is the filter criteria.
 
 This basically returns, if it exists, an ordered output containing the specific instances of the directory that satisfy the type we require. This ```type``` is a single letter format. 
 
@@ -242,4 +242,4 @@ I simply use
 Which first finds the path of the file returned by the ```find``` command and then executes the ```cat``` command on all files in that path. The output is this.
 
 
-![Image](https://imgur.com/6hNjQ6Q)
+![Image](https://imgur.com/6hNjQ6Q.png)
